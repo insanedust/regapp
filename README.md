@@ -3,12 +3,12 @@ Application for capturing and managing I.T assets
 
 ## Getting Started
 
-Install Prerequisites below and follow install instructions.
+Install prerequisites below and follow install instructions.
 
 ### Prerequisites
 
 Node.js needs to installed, application has been tested with V9.11.1 and V10.1.0 https://nodejs.org.
-MongoDB needs to be installed, current tested version is V3.6 https://www.mongodb.com/.
+MongoDB needs to be installed, current tested version is V 3.6 https://www.mongodb.com/.
 
 ### Installing
 
@@ -20,7 +20,7 @@ Download MongoDB follow prompts to install. Make sure in your root direct that .
 
 Make sure mongodb service is running. If path variable is not set you will need to navigate to C:\Program Files\MongoDB\Server\3.6\bin\ and type mongod.
 
-Next step clone repo to folder of your choice, open terminal navigate to folder and type npm install. This will install require packages for the application. Once done type node app into the terminal and application will start.
+Next step clone repo to folder of your choice, open terminal navigate to folder and type "npm install". This will install require packages for the application. Once done type node app into the terminal and application will start.
 
 ## Built With
 

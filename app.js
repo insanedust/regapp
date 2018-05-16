@@ -23,5 +23,5 @@ app.listen(port,(err) => {
     if(err) 
         console.log("Error unable to start server");
     else
-    console.log("Server started: http://localhost:"+ port +"/api/assets/");
+    console.log("Server started successfully: http://localhost:"+ port +"/api/assets/");
 });
