@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyPaser = require('body-parser');
 const Asset = require('./Models/assetModel');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3433;
 
 mongoose.connect('mongodb://localhost/assetAPI')
     .then(() => {
@@ -23,5 +23,5 @@ app.listen(port,(err) => {
     if(err) 
         console.log("Error unable to start server");
     else
-    console.log("Server started on port " + port);
+    console.log("Server started: http://localhost:"+ port +"/api/assets/");
 });
