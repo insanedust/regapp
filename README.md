@@ -20,7 +20,11 @@ Download MongoDB follow prompts to install. Make sure in your root direct that .
 
 Make sure mongodb service is running. If path variable is not set you will need to navigate to C:\Program Files\MongoDB\Server\3.6\bin\ and type mongod.
 
-Next step clone repo to folder of your choice, open terminal navigate to folder and type "npm install". This will install require packages for the application. Once done type node app into the terminal and application will start.
+Next step clone repo to folder of your choice, open terminal navigate to folder and type "npm install". This will install require packages for the application. Once done type node app into the terminal and application will start and go to http://localhost:3433/api/assets/.
+
+I would recommed posting data first as database blank you can navigate to Models folder in repo and check the assetModel.js file and see how the schema is structed.
+
+You can use tools jsfiddler or postmon to send GET, POST, PUT, PATCH and DELETE requests to API.
 
 ## Built With
 
